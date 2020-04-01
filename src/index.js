@@ -10,8 +10,8 @@ const app = express();
 const port = process.env.PORT;
 
 const allowedOrigins = [ 
-	'http://localhost:3000',
-	'https://www.000webhost.com/members/website/houtarou-angular'
+	'http://localhost:4200',
+	'https://houtarou-angular.000webhostapp.com'
 ];
 
 // middleware
