@@ -7,7 +7,7 @@ const taskRouter = require('./router/task');
 const jobRouter = require('./router/jobs');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 const allowedOrigins = [ 
 	'http://localhost:3000',
