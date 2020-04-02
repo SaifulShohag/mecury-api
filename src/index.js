@@ -11,7 +11,7 @@ const port = process.env.PORT;
 
 const allowedOrigins = [ 
 	'http://localhost:4200',
-	'https://houtarou-angular.000webhostapp.com'
+	'https://houtarou.000webhostapp.com'
 ];
 
 // middleware
